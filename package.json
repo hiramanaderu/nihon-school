@@ -1,0 +1,14 @@
+{
+  "name": "japan-cs-navigator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "日本计算机修士择校工具：按考试科目和研究方向筛选、比较官方招生路径。",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "start": "node scripts/serve.mjs",
+    "test": "node tests/filters.test.mjs",
+    "check": "node --check dist/app.mjs && node --check dist/data.mjs && node --check dist/engine.mjs && node --check scripts/serve.mjs"
+  }
+}
